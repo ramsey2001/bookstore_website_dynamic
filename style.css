@@ -1,0 +1,358 @@
+ /* Header ----------------------------------------------- */
+
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: white;
+   height: 100%; 
+   padding: 0;
+ }
+
+ #logo {
+   width: 400px;
+   float: left;
+   margin-left: 150px;
+ }
+
+ #nav1 ul {
+   list-style-type: none;
+   margin-right: 170px;
+   margin-top: 50px;
+   float: right;
+ }
+
+ #nav1 li {
+   display: inline-block;
+   margin-left: 20px;
+ }
+
+ #nav1 li a {
+   display: inline-block;
+   color: #0f3f4b;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .icone
+
+ /* nav1 */
+   {
+   width: 26px;
+   display: inline-block;
+   color: #ffffff;
+ }
+
+ .icone:hover {
+   opacity: 0.6;
+ }
+
+ #nav1 .active {
+   color: #ffd731;
+   border-bottom: solid 2px #ffd731;
+ }
+
+ #nav2 ul {
+   list-style-type: none;
+   margin-left: 140px;
+   padding: 0;
+ }
+
+ #nav2 li {
+   display: inline;
+   padding: 10px;
+ }
+
+ #nav2 li a {
+   display: inline-block;
+   color: #0f3f4b;
+   text-align: center;
+   padding: 20px;
+ }
+
+ .li2 a {
+   text-decoration: none;
+ }
+
+ .li3 a {
+   text-decoration: underline;
+   margin-right: 70px;
+ }
+
+ #nav2 li a:hover {
+   color: #e6f1ff;
+ }
+
+ #nav2 .active {
+   color: #ffd731;
+ }
+
+ .barracerca {
+   display: inline;
+   margin-left: 565px;
+   padding: 6px;
+   border-radius: 20px;
+   border: 1px solid #ccc;
+ }
+
+ .bottonecerca {
+   border: none;
+   background-color: white;
+ }
+
+ .bottonecerca:hover {
+   opacity: 0.6;
+   cursor: pointer;
+ }
+
+ /* home --------------------------------------------------------------- */
+
+ .vetrina {
+   color: #0f3f4b;
+   text-align: center;
+   font-size: 14px;
+   margin: 0 auto;
+   width: 1300px;
+   padding-bottom: 10px;
+ }
+
+ .intestazione {
+   color: #0f3f4b;
+   font-size: 30px;
+   margin-left: 170px;
+ }
+
+ .int2 {
+   color: #0f3f4b;
+   font-size: 20px;
+   margin-left: 170px;
+ }
+
+ .card {
+   padding: 20px;
+   margin: 0;
+   display: inline-block;
+   text-align: center;
+ }
+
+ .imgvetrina {
+   padding: 30px;
+   display: inline-block;
+   height: 230px;
+   width: 140px;
+   border: rgba(0, 0, 0, 0.2) solid 0.5px;
+ }
+
+ .imgvetrina:hover {
+   opacity: 0.6;
+ }
+
+ .prezzo {
+   color: #0f3f4b;
+ }
+
+ .autore {
+   color: #0f3f4b;
+ }
+
+ .titololibro {
+   color: #0f3f4b;
+   margin-top: -10px;
+ }
+
+ .titololibro:hover {
+   opacity: 0.6;
+ }
+
+
+ /* accedi e registrati ---------------------------------------------------- */
+
+ .accedidiv {
+   border: 0.5px solid rgb(205, 205, 205);
+   border-radius: 20px;
+   width: 500px;
+   margin: auto;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+   text-align: center;
+   color: #0f3f4b;
+ }
+
+ .accedidiv a {
+   text-decoration: none;
+   color: #0f3f4b;
+ }
+
+ .accedidiv .active {
+   border-bottom: solid 2px #ffd731;
+ }
+
+
+ /* profilo ----------------------------------------------- */
+
+ .navprofilo {
+   float: left;
+   font-size: 14px;
+   display: inline;
+   margin-right: 100px;
+   margin-left: 170px;
+   margin-top: 23px;
+ }
+
+ .navprofilo a:hover {
+   opacity: 0.6;
+ }
+
+ .intestazione2 {
+   color: #0f3f4b;
+   margin-left: 372px;
+ }
+
+ .boxprofilo {
+   border: 0.5px solid rgb(205, 205, 205);
+   width: 200px;
+   height: 150px;
+   color: #0f3f4b;
+   padding: 20px;
+   float: left;
+   margin: 10px;
+ }
+
+ .boxprof {
+   margin-left: 190px;
+ }
+
+ /* catalogo ------------------------------------------------------------ */
+
+ .catalogodiv {
+   border: 0.5px solid rgb(205, 205, 205);
+   width: 500px;
+   margin-left: 170px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   color: #0f3f4b;
+ }
+
+ .imgcatalogo {
+   padding: 30px;
+   display: inline-block;
+   cursor: pointer;
+   height: 210px;
+   width: 150px;
+ }
+
+ .imgcatalogo:hover {
+   opacity: 0.6;
+ }
+
+ /* lista utenti e libri ------------------------------------------------------------ */
+
+ table {
+   font-size: 14px;
+   margin: 0 auto;
+   width: 1100px;
+   padding-bottom: 10px;
+   border-collapse: collapse;
+ }
+
+ td,
+ th {
+   border: 1px solid #dddddd;
+   padding: 13px;
+   text-align: center;
+ }
+
+ tr {
+   padding: 10px;
+ }
+
+ #piu {
+   margin-left: 170px;
+ }
+
+ .icone1 {
+   width: 20px;
+   display: inline-block;
+   color: #ffffff;
+ }
+
+ .icone1:hover {
+   opacity: 0.6;
+ }
+
+
+
+
+ /* risultati ricerca ------------------------------------------------------------ */
+
+ .divrisul {
+   border: 0.5px solid rgb(205, 205, 205);
+   width: 500px;
+   margin-left: 170px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   color: #0f3f4b;
+   padding: 15px;
+   margin-bottom: 20px;
+ }
+
+
+
+ /* mostra libro ------------------------------------------------------------ */
+
+ .divlibro {
+   width: 300px;
+   margin-left: 170px;
+   color: #0f3f4b;
+   padding: 15px;
+   margin-bottom: 20px;
+   display: inline-block;
+ }
+
+ .divlibro1 {
+   width: 700px;
+   float: right;
+   margin-right: 200px;
+   color: #0f3f4b;
+   padding: 15px;
+   margin-bottom: 20px;
+   display: inline;
+ }
+
+ .int3 {
+   color: #0f3f4b;
+   font-size: 20px;
+ }
+
+ .error {
+   background-color: rgb(255, 211, 211);
+   color: rgb(122, 0, 0);
+   padding: 10px;
+   width: 300px;
+   margin: auto;
+   margin-bottom: 20px;
+   font-size: 14px;
+ }
+
+ .avviso {
+   background-color: rgb(255, 242, 197);
+   color: rgb(171, 123, 0);
+   padding: 10px;
+   width: 300px;
+   margin: auto;
+   margin-bottom: 20px;
+   font-size: 14px;
+ }
+
+
+ /* footer ------------------------------------------------------------ */
+
+ .footer {
+   background-color: #0f3f4b;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font-size: 11px;
+
+
+ }
